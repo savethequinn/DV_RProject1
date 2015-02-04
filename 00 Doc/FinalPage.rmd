@@ -11,7 +11,6 @@ Use the following code to load the correct packages into RStudio.
 source("../01 Data/Profile.R", echo = TRUE)
 ```
 
-
 ## Step 2
 #### Build data frames for 4 tables called __*order_details*, *orders*, *items* and *customers*__. The R code used to do this is written below.
 
@@ -40,7 +39,6 @@ source("../01 Data/CustomersDF.R", echo = TRUE)
 
 We can now create interesting plots for each data frame we have created from the database.
 
-
 For the Order Details data frame:
 ```{r}
 source("../02 Visualizations/VisualOrderDetails.R", echo = TRUE)
@@ -60,7 +58,6 @@ For the Customers data frame:
 ```{r}
 source("../02 Visualizations/VisualCustomers.R", echo = TRUE)
 ```
-
 
 ## Step 4
 #### Use a query to produce the entire data set.
