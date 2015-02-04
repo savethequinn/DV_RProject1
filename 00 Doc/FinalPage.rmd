@@ -74,3 +74,6 @@ source("../01 Data/EntireDF.R", echo = TRUE)
 #### Produce plots using **ggplot**
 
 Use the new data frame named *dfEntire* to recreate the following plots.
+```{r}
+source("../02 Visualizations/VisualDfEntire.R", echo = TRUE)
+```

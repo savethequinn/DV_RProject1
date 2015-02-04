@@ -1,0 +1,6 @@
+graph1 <- ggplot(dfEntire, aes(x = as.Date(ORDER_DATE, "%Y-%m-%d"), y = as.Date(SHIPPED_DATE, "%Y-%m-%d"), color = as.factor(UNIT_PRICE)))
+graph1 + geom_point(na.rm = TRUE) + facet_wrap(~ CUSTOMER_STATE)
+graph2 <- ggplot(dfEntire, aes(x = as.Date(ORDER_DATE, "%Y-%m-%d"), y = as.Date(SHIPPED_DATE, "%Y-%m-%d"), color = as.factor(TITLE)))
+graph2 + geom_point(na.rm = TRUE) + facet_wrap(~ CUSTOMER_STATE)
+graph3 <- ggplot(dfEntire, aes(x = as.Date(ORDER_DATE, "%Y-%m-%d"), y = as.Date(SHIPPED_DATE, "%Y-%m-%d"), color = as.factor(ARTIST)))
+graph3 + geom_point(na.rm = TRUE) + facet_wrap(~ CUSTOMER_STATE)
